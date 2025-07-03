@@ -86,7 +86,9 @@ workflow.add_edge("writer", END)
 app = workflow.compile()
 
 # --- MENJALANKAN GRAFIK ---
-topic_to_research = "Prospek dan tantangan investasi energi terbarukan di IKN pasca 2025"
+# topic_to_research = "Prospek dan tantangan investasi energi terbarukan di IKN pasca 2025"
+
+topic_to_research = "Prospek dan tantangan Generasi Indonesia Emas 2045"
 final_state = app.invoke({"topic": topic_to_research})
 
 # Menampilkan hasil akhir
